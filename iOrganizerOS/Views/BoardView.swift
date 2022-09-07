@@ -1,9 +1,10 @@
 //
 //  BoardView.swift
-//  iOrganizerOS
+//  TrelloClone
 //
-//  Created by Iranildo C Silva on 07/09/22.
+//  Created by Alfian Losari on 11/30/21.
 //
+
 import SwiftUI
 
 let boardListBackgroundColor = Color(uiColor: UIColor(red: 0.92, green: 0.92, blue: 0.94, alpha: 1))
@@ -46,38 +47,15 @@ struct BoardView: View {
             .navigationTitle(board.name)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItemGroup(placement: .navigationBarTrailing) {
-            
-                    Button(action: {
-                        buttomRename()
-                    }){
-                        Image(systemName: "rectangle.and.pencil.and.ellipsis")
-                    }
-                    
-                    Button(action: {
-                        buttomClosing()
-                    }){
-                        Image(systemName: "xmark")
-                            
-                    }
-                    
+                Button("Rename") {
+                    handleRenameBoard()
                 }
-               
-
             }
         }
         .navigationViewStyle(.stack)
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
             BoardDiskRepository().saveToDisk(board: board)
         }
-    }
-    
-    func buttomRename(){
-         handleRenameBoard()
-    }
-    
-    func buttomClosing(){
-        exit(0)
     }
     
     private func handleOnAddList() {
@@ -103,6 +81,6 @@ struct BoardView: View {
 struct BoardView_Previews: PreviewProvider {
     static var previews: some View {
         BoardView()
-            .previewInterfaceOrientation(.portrait)
+            .previewInterfaceOrientation(.landscapeLeft)
     }
 }

@@ -2,7 +2,7 @@
 //  Board.swift
 //  iOrganizerOS
 //
-//  Created by Iranildo C Silva on 07/09/22.
+//  Created by Iranildo C Silva on 06/09/22.
 //
 
 import Foundation
@@ -69,3 +69,4 @@ class Board: ObservableObject, Identifiable, Codable {
     }
     
 }
+

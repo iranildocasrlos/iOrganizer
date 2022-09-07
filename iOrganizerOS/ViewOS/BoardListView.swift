@@ -5,7 +5,6 @@
 //  Created by Iranildo C Silva on 07/09/22.
 //
 
-
 import SwiftUI
 import Introspect
 
@@ -121,3 +120,4 @@ struct BoardListView_Previews: PreviewProvider {
             .frame(width: 300, height: 512)
     }
 }
+

@@ -1,10 +1,9 @@
 //
 //  BoardListView.swift
-//  iOrganizerOS
+//  TrelloClone
 //
-//  Created by Iranildo C Silva on 07/09/22.
+//  Created by Alfian Losari on 11/30/21.
 //
-
 
 import SwiftUI
 import Introspect

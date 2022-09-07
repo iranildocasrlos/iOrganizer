@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EC3D76A28C7B153002FE584 /* iOrganizerOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D76928C7B153002FE584 /* iOrganizerOSApp.swift */; };
+		3EC3D76E28C7B156002FE584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC3D76D28C7B156002FE584 /* Assets.xcassets */; };
+		3EC3D77128C7B156002FE584 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC3D77028C7B156002FE584 /* Preview Assets.xcassets */; };
+		3EC3D77C28C7B156002FE584 /* iOrganizerOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D77B28C7B156002FE584 /* iOrganizerOSTests.swift */; };
+		3EC3D78628C7B156002FE584 /* iOrganizerOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78528C7B156002FE584 /* iOrganizerOSUITests.swift */; };
+		3EC3D78828C7B156002FE584 /* iOrganizerOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D78728C7B156002FE584 /* iOrganizerOSUITestsLaunchTests.swift */; };
+		3EC3D79428C7B1B3002FE584 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 3EC3D79328C7B1B3002FE584 /* Introspect */; };
+		3EC3D79928C7B508002FE584 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D79828C7B508002FE584 /* BoardView.swift */; };
+		3EC3D79B28C7C2DC002FE584 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D79A28C7C2DC002FE584 /* Board.swift */; };
+		3EC3D79D28C7C31F002FE584 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D79C28C7C31F002FE584 /* BoardList.swift */; };
+		3EC3D7A028C85216002FE584 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D79E28C85216002FE584 /* Database.xcdatamodeld */; };
+		3EC3D7A228C852FE002FE584 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7A128C852FE002FE584 /* BoardListView.swift */; };
+		3EC3D7A428C853E4002FE584 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7A328C853E4002FE584 /* CardView.swift */; };
+		3EC3D7A628C85427002FE584 /* View+AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7A528C85427002FE584 /* View+AlertTextField.swift */; };
+		3EC3D7A828C85461002FE584 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7A728C85461002FE584 /* Card.swift */; };
+		3EC3D7AA28C854A7002FE584 /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7A928C854A7002FE584 /* Board+Stub.swift */; };
+		3EC3D7AC28C854D3002FE584 /* BoardDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7AB28C854D3002FE584 /* BoardDropDelegate.swift */; };
+		3EC3D7AE28C85529002FE584 /* BoardDiskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D7AD28C85529002FE584 /* BoardDiskRepository.swift */; };
 		8BE4D8152755067A0028C75B /* iOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D8142755067A0028C75B /* iOrganizer.swift */; };
 		8BE4D8192755067C0028C75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4D8182755067C0028C75B /* Assets.xcassets */; };
 		8BE4D81C2755067C0028C75B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4D81B2755067C0028C75B /* Preview Assets.xcassets */; };
@@ -23,7 +41,45 @@
 		8BE4D84C27569B9A0028C75B /* BoardDiskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D84B27569B9A0028C75B /* BoardDiskRepository.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3EC3D77828C7B156002FE584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BE4D8092755067A0028C75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC3D76628C7B153002FE584;
+			remoteInfo = iOrganizerOS;
+		};
+		3EC3D78228C7B156002FE584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BE4D8092755067A0028C75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC3D76628C7B153002FE584;
+			remoteInfo = iOrganizerOS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3EC3D76728C7B153002FE584 /* iOrganizerOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOrganizerOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC3D76928C7B153002FE584 /* iOrganizerOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOrganizerOSApp.swift; sourceTree = "<group>"; };
+		3EC3D76D28C7B156002FE584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC3D77028C7B156002FE584 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EC3D77228C7B156002FE584 /* iOrganizerOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOrganizerOS.entitlements; sourceTree = "<group>"; };
+		3EC3D77728C7B156002FE584 /* iOrganizerOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOrganizerOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC3D77B28C7B156002FE584 /* iOrganizerOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOrganizerOSTests.swift; sourceTree = "<group>"; };
+		3EC3D78128C7B156002FE584 /* iOrganizerOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOrganizerOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC3D78528C7B156002FE584 /* iOrganizerOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOrganizerOSUITests.swift; sourceTree = "<group>"; };
+		3EC3D78728C7B156002FE584 /* iOrganizerOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOrganizerOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EC3D79828C7B508002FE584 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		3EC3D79A28C7C2DC002FE584 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		3EC3D79C28C7C31F002FE584 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
+		3EC3D79F28C85216002FE584 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		3EC3D7A128C852FE002FE584 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
+		3EC3D7A328C853E4002FE584 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3EC3D7A528C85427002FE584 /* View+AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AlertTextField.swift"; sourceTree = "<group>"; };
+		3EC3D7A728C85461002FE584 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3EC3D7A928C854A7002FE584 /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
+		3EC3D7AB28C854D3002FE584 /* BoardDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDropDelegate.swift; sourceTree = "<group>"; };
+		3EC3D7AD28C85529002FE584 /* BoardDiskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardDiskRepository.swift; sourceTree = "<group>"; };
 		8BE4D8112755067A0028C75B /* iOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE4D8142755067A0028C75B /* iOrganizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOrganizer.swift; sourceTree = "<group>"; };
 		8BE4D8182755067C0028C75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +98,28 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3EC3D76428C7B153002FE584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC3D79428C7B1B3002FE584 /* Introspect in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC3D77428C7B156002FE584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC3D77E28C7B156002FE584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BE4D80E2755067A0028C75B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,11 +131,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EC3D76828C7B153002FE584 /* iOrganizerOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3D79728C7B420002FE584 /* ViewOS */,
+				3EC3D79628C7B412002FE584 /* ModelsOS */,
+				3EC3D76928C7B153002FE584 /* iOrganizerOSApp.swift */,
+				3EC3D76D28C7B156002FE584 /* Assets.xcassets */,
+				3EC3D77228C7B156002FE584 /* iOrganizerOS.entitlements */,
+				3EC3D76F28C7B156002FE584 /* Preview Content */,
+			);
+			path = iOrganizerOS;
+			sourceTree = "<group>";
+		};
+		3EC3D76F28C7B156002FE584 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3D77028C7B156002FE584 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EC3D77A28C7B156002FE584 /* iOrganizerOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3D77B28C7B156002FE584 /* iOrganizerOSTests.swift */,
+			);
+			path = iOrganizerOSTests;
+			sourceTree = "<group>";
+		};
+		3EC3D78428C7B156002FE584 /* iOrganizerOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3D78528C7B156002FE584 /* iOrganizerOSUITests.swift */,
+				3EC3D78728C7B156002FE584 /* iOrganizerOSUITestsLaunchTests.swift */,
+			);
+			path = iOrganizerOSUITests;
+			sourceTree = "<group>";
+		};
+		3EC3D79228C7B19E002FE584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EC3D79628C7B412002FE584 /* ModelsOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3D79A28C7C2DC002FE584 /* Board.swift */,
+				3EC3D79C28C7C31F002FE584 /* BoardList.swift */,
+				3EC3D7A728C85461002FE584 /* Card.swift */,
+				3EC3D7A928C854A7002FE584 /* Board+Stub.swift */,
+				3EC3D7AB28C854D3002FE584 /* BoardDropDelegate.swift */,
+				3EC3D7AD28C85529002FE584 /* BoardDiskRepository.swift */,
+			);
+			path = ModelsOS;
+			sourceTree = "<group>";
+		};
+		3EC3D79728C7B420002FE584 /* ViewOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EC3D79828C7B508002FE584 /* BoardView.swift */,
+				3EC3D7A128C852FE002FE584 /* BoardListView.swift */,
+				3EC3D7A328C853E4002FE584 /* CardView.swift */,
+				3EC3D7A528C85427002FE584 /* View+AlertTextField.swift */,
+			);
+			path = ViewOS;
+			sourceTree = "<group>";
+		};
 		8BE4D8082755067A0028C75B = {
 			isa = PBXGroup;
 			children = (
 				8BE4D8132755067A0028C75B /* iOrganizer */,
+				3EC3D76828C7B153002FE584 /* iOrganizerOS */,
+				3EC3D77A28C7B156002FE584 /* iOrganizerOSTests */,
+				3EC3D78428C7B156002FE584 /* iOrganizerOSUITests */,
 				8BE4D8122755067A0028C75B /* Products */,
+				3EC3D79228C7B19E002FE584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +216,9 @@
 			isa = PBXGroup;
 			children = (
 				8BE4D8112755067A0028C75B /* iOrganizer.app */,
+				3EC3D76728C7B153002FE584 /* iOrganizerOS.app */,
+				3EC3D77728C7B156002FE584 /* iOrganizerOSTests.xctest */,
+				3EC3D78128C7B156002FE584 /* iOrganizerOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +232,7 @@
 				8BE4D822275506950028C75B /* Models */,
 				8BE4D8182755067C0028C75B /* Assets.xcassets */,
 				8BE4D81A2755067C0028C75B /* Preview Content */,
+				3EC3D79E28C85216002FE584 /* Database.xcdatamodeld */,
 			);
 			path = iOrganizer;
 			sourceTree = "<group>";
@@ -117,6 +272,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3EC3D76628C7B153002FE584 /* iOrganizerOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC3D78F28C7B156002FE584 /* Build configuration list for PBXNativeTarget "iOrganizerOS" */;
+			buildPhases = (
+				3EC3D76328C7B153002FE584 /* Sources */,
+				3EC3D76428C7B153002FE584 /* Frameworks */,
+				3EC3D76528C7B153002FE584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOrganizerOS;
+			packageProductDependencies = (
+				3EC3D79328C7B1B3002FE584 /* Introspect */,
+			);
+			productName = iOrganizerOS;
+			productReference = 3EC3D76728C7B153002FE584 /* iOrganizerOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EC3D77628C7B156002FE584 /* iOrganizerOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC3D79028C7B156002FE584 /* Build configuration list for PBXNativeTarget "iOrganizerOSTests" */;
+			buildPhases = (
+				3EC3D77328C7B156002FE584 /* Sources */,
+				3EC3D77428C7B156002FE584 /* Frameworks */,
+				3EC3D77528C7B156002FE584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC3D77928C7B156002FE584 /* PBXTargetDependency */,
+			);
+			name = iOrganizerOSTests;
+			productName = iOrganizerOSTests;
+			productReference = 3EC3D77728C7B156002FE584 /* iOrganizerOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EC3D78028C7B156002FE584 /* iOrganizerOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC3D79128C7B156002FE584 /* Build configuration list for PBXNativeTarget "iOrganizerOSUITests" */;
+			buildPhases = (
+				3EC3D77D28C7B156002FE584 /* Sources */,
+				3EC3D77E28C7B156002FE584 /* Frameworks */,
+				3EC3D77F28C7B156002FE584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC3D78328C7B156002FE584 /* PBXTargetDependency */,
+			);
+			name = iOrganizerOSUITests;
+			productName = iOrganizerOSUITests;
+			productReference = 3EC3D78128C7B156002FE584 /* iOrganizerOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8BE4D8102755067A0028C75B /* iOrganizer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BE4D81F2755067C0028C75B /* Build configuration list for PBXNativeTarget "iOrganizer" */;
@@ -144,9 +355,20 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					3EC3D76628C7B153002FE584 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3EC3D77628C7B156002FE584 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3EC3D76628C7B153002FE584;
+					};
+					3EC3D78028C7B156002FE584 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3EC3D76628C7B153002FE584;
+					};
 					8BE4D8102755067A0028C75B = {
 						CreatedOnToolsVersion = 13.2;
 					};
@@ -169,11 +391,37 @@
 			projectRoot = "";
 			targets = (
 				8BE4D8102755067A0028C75B /* iOrganizer */,
+				3EC3D76628C7B153002FE584 /* iOrganizerOS */,
+				3EC3D77628C7B156002FE584 /* iOrganizerOSTests */,
+				3EC3D78028C7B156002FE584 /* iOrganizerOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3EC3D76528C7B153002FE584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC3D77128C7B156002FE584 /* Preview Assets.xcassets in Resources */,
+				3EC3D76E28C7B156002FE584 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC3D77528C7B156002FE584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC3D77F28C7B156002FE584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BE4D80F2755067A0028C75B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +434,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3EC3D76328C7B153002FE584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC3D7AC28C854D3002FE584 /* BoardDropDelegate.swift in Sources */,
+				3EC3D76A28C7B153002FE584 /* iOrganizerOSApp.swift in Sources */,
+				3EC3D7A628C85427002FE584 /* View+AlertTextField.swift in Sources */,
+				3EC3D7A228C852FE002FE584 /* BoardListView.swift in Sources */,
+				3EC3D7AE28C85529002FE584 /* BoardDiskRepository.swift in Sources */,
+				3EC3D79928C7B508002FE584 /* BoardView.swift in Sources */,
+				3EC3D79D28C7C31F002FE584 /* BoardList.swift in Sources */,
+				3EC3D7A428C853E4002FE584 /* CardView.swift in Sources */,
+				3EC3D7AA28C854A7002FE584 /* Board+Stub.swift in Sources */,
+				3EC3D79B28C7C2DC002FE584 /* Board.swift in Sources */,
+				3EC3D7A828C85461002FE584 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC3D77328C7B156002FE584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC3D77C28C7B156002FE584 /* iOrganizerOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC3D77D28C7B156002FE584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC3D78828C7B156002FE584 /* iOrganizerOSUITestsLaunchTests.swift in Sources */,
+				3EC3D78628C7B156002FE584 /* iOrganizerOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BE4D80D2755067A0028C75B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,13 +483,165 @@
 				8BE4D826275507990028C75B /* BoardList.swift in Sources */,
 				8BE4D83C275664A10028C75B /* CardView.swift in Sources */,
 				8BE4D846275678570028C75B /* View+AlertTextField.swift in Sources */,
+				3EC3D7A028C85216002FE584 /* Database.xcdatamodeld in Sources */,
 				8BE4D8152755067A0028C75B /* iOrganizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3EC3D77928C7B156002FE584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC3D76628C7B153002FE584 /* iOrganizerOS */;
+			targetProxy = 3EC3D77828C7B156002FE584 /* PBXContainerItemProxy */;
+		};
+		3EC3D78328C7B156002FE584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC3D76628C7B153002FE584 /* iOrganizerOS */;
+			targetProxy = 3EC3D78228C7B156002FE584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		3EC3D78928C7B156002FE584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = iOrganizerOS/iOrganizerOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOrganizerOS/Preview Content\"";
+				DEVELOPMENT_TEAM = KUNPWY7925;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.localoeste.iOrganizerOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3EC3D78A28C7B156002FE584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = iOrganizerOS/iOrganizerOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOrganizerOS/Preview Content\"";
+				DEVELOPMENT_TEAM = KUNPWY7925;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.localoeste.iOrganizerOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3EC3D78B28C7B156002FE584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KUNPWY7925;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.localoeste.iOrganizerOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOrganizerOS.app/Contents/MacOS/iOrganizerOS";
+			};
+			name = Debug;
+		};
+		3EC3D78C28C7B156002FE584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KUNPWY7925;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.localoeste.iOrganizerOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOrganizerOS.app/Contents/MacOS/iOrganizerOS";
+			};
+			name = Release;
+		};
+		3EC3D78D28C7B156002FE584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KUNPWY7925;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.localoeste.iOrganizerOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iOrganizerOS;
+			};
+			name = Debug;
+		};
+		3EC3D78E28C7B156002FE584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KUNPWY7925;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.localoeste.iOrganizerOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = iOrganizerOS;
+			};
+			name = Release;
+		};
 		8BE4D81D2755067C0028C75B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,6 +821,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3EC3D78F28C7B156002FE584 /* Build configuration list for PBXNativeTarget "iOrganizerOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC3D78928C7B156002FE584 /* Debug */,
+				3EC3D78A28C7B156002FE584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC3D79028C7B156002FE584 /* Build configuration list for PBXNativeTarget "iOrganizerOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC3D78B28C7B156002FE584 /* Debug */,
+				3EC3D78C28C7B156002FE584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC3D79128C7B156002FE584 /* Build configuration list for PBXNativeTarget "iOrganizerOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC3D78D28C7B156002FE584 /* Debug */,
+				3EC3D78E28C7B156002FE584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8BE4D80C2755067A0028C75B /* Build configuration list for PBXProject "iOrganizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -418,12 +880,30 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3EC3D79328C7B1B3002FE584 /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE4D84027566AD00028C75B /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
 		8BE4D84127566AD00028C75B /* Introspect */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8BE4D84027566AD00028C75B /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
 			productName = Introspect;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3EC3D79E28C85216002FE584 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EC3D79F28C85216002FE584 /* Database.xcdatamodel */,
+			);
+			currentVersion = 3EC3D79F28C85216002FE584 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8BE4D8092755067A0028C75B /* Project object */;
 }

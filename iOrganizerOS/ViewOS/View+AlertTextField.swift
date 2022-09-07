@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-import UIKit
+import AppKit
 
 extension View {
     
@@ -29,3 +29,4 @@ extension View {
     }
     
 }
+

@@ -53,3 +53,4 @@ struct CardView_Previews: PreviewProvider {
             .frame(width: 300)
     }
 }
+

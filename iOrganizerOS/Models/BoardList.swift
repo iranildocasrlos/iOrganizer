@@ -1,8 +1,8 @@
 //
 //  BoardList.swift
-//  iOrganizerOS
+//  TrelloClone
 //
-//  Created by Iranildo C Silva on 07/09/22.
+//  Created by Alfian Losari on 11/29/21.
 //
 
 import Foundation
